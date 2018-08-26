@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap Template lv3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon4.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans|PT+Serif|Sawarabi+Mincho|Source+Sans+Pro" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/green-color.css">
+    <link rel="stylesheet" href="css/orange-color.css">
+    <link rel="stylesheet" href="css/purple-color.css">
+    <link rel="stylesheet" href="css/yellow-color.css">
+    <link rel="stylesheet" href="css/default-color.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+<!-- ------------------------start loader------------------------------------ -->
+<div class="load-overlay">
+    <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+</div>
+<!-- ------------------------end loader------------------------------------ -->
+
+
+<!-- ------------------------option -box - color------------------------------------ -->
+<div class="option-box">
+    <div class="color-option">
+      <h4>Choose Color</h4>
+      <ul class="list-unstyled">
+
+        <li data-value="css/default-color.css" class="df-cl" style="background-color: crimson"></li>
+        <li data-value="css/yellow-color.css" class="yl-color" style="background-color:#ffc300"></li>
+        <li data-value="css/orange-color.css" class="org-cl" style="background-color:#f7600f"></li>
+        <li data-value="css/green-color.css" class="gr-cl" style="background-color:#6abe83"></li>
+        <li data-value="css/purple-color.css" class="purple-color" style="background-color:#791E94"></li>
+      </ul>
+    </div>
+    <li class="fa fa-gear fa-2x gr-checked"></li>
+
+  </div>
+<!-- ------------------------------------------------------------ -->
+
+<!-- ------------------------------------------start navbar--------------------- -->
+
+  <nav class="navbar navbar-inverse ">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">-T- <span class="brand">Brand</span></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+
+          <li class="active"><a href="#" data-scroll="#myCarousel">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#" data-scroll="#about">About us</a></li>
+          <li><a href="#" data-scroll="#features">Services</a></li>
+          <li><a href="#" data-scroll="#team">Team</a></li>
+          
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-scroll="" data-toggle="dropdown" role="button" aria-haspopup="true"                aria-expanded="false">More<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#" data-scroll="#price">$ Price</a></li>
+                <li><a href="#" data-scroll="#history">History</a></li>
+                <li><a href="#" data-scroll="#skills">Skills</a></li>
+                <li role="separator" class="divider" ></li>
+                <li><a href="#" data-scroll="#client">Clints</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" data-scroll="#">Web Hosting</a></li>
+             </ul>
+          </li>
+          <li><a href="#" data-scroll="#contacts">Contact US</a></li>
+          <li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><span class="glyphicon glyphicon-log-in"  ></span> Login</a></li>
+          </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- ------------------------------------------------------------------------------  -->
+  <!-- ------------------------start login page------------------------------------------------------  -->
+
+  <div id="id01" class="modal container">
+
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="img/login.jpg" alt="Avatar" class="avatar">
+        </div>
+    
+        <div>
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button class="btn-log" type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="contacts" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn btn-danger cancelbtn">Cancel</button>
+
+          <button  onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="btn btn-success cancelbtn" >Sign Up</button>
+
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    <!-- ------------------Sign up page----------------------------------------- -->
+
+    <div id="id02" class="modal container">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content" action="">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr style="width: 80%;margin: 10px 0;">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+    
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+    
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="btn btn-danger cancelbtn">Cancel</button>
+            <button type="submit" class="btn btn-success cancelbtn">submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    </div>
+
+    <!-- ---------end sign up page---------- -->
+
+  <!-- -------------------------------------end login page-----------------------------------------  -->
+
+<!-- ----------------------------start carousel-------------------------------------- -->
+  <div>
+    <!-- <h2>Carousel Example</h2>   -->
+    <div id="myCarousel" class="hidden-xs carousel slide overlay" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="hidden-xs carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/a22.jpeg" alt="Los Angeles" style="width:100%;opacity: .4;">
+          <div class="hidden-xs carousel-caption d-none d-md-block">
+              <div class="pos-rgh">
+                
+                  <h1>Hello, world!</h1>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p><a href="#" data-scroll="#about" class="btn btn-primary btn-lg p-learn"  role="button">Learn more <i class="fa fa-angle-double-down"></i></a></p>
+                </div>
+          </div>
+          
+        </div>
+  
+        <div class="item">
+          <img src="img/a19.jpeg" alt="Chicago" style="width:100%; opacity: .4">
+          <div class="hidden-xs carousel-caption d-none d-md-block">
+              <div class="pos-rgh">
+                  <h1>Hello, world!</h1>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p><a href="#" data-scroll="#about" class="btn btn-primary btn-lg p-learn"  role="button">Learn more <i class="fa fa-angle-double-down"></i></a></p>
+                </div>
+        </div>
+        </div>
+      
+        <div class="item">
+          <img src="img/a27.jpeg" alt="New york" style="width:100%;opacity: .4;">
+          <div class="hidden-xs carousel-caption d-none d-md-block">
+              <div class="pos-rgh">
+                  <h1>Hello, world!</h1>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p><a href="#" data-scroll="#about" class="btn btn-primary btn-lg p-learn"  role="button">Learn more <i class="fa fa-angle-double-down"></i></a></p>
+                </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        
+      </a>
+    </div>
+  </div>
+  <!-- -----------------------------end carousel --------------------------- -->
+  <!-- -----------------------------------about----------------------------- -->
+  <section id="about" class="text-center dashboard clearfix">
+    <div class="container">
+     <div class="row">
+         <!-- <img class="img-responsive center-block col-md-3" src="img/a5.jpeg" alt="check"> -->
+      <div class="col-md-3 pos-1">
+        
+         <video class="img-responsive center-block "width="320px" height="240px" controls>
+          <source src="img/MomentCam_20160922013323.mp4" type="video/mp4">
+
+          Your browser does not support the video tag.
+        </video>
+        <div class="visit-st">
+            <h4 class="text-center">Visit Our Sites on  <i class="fa fa-angle-double-down"></i></h4>
+          <i class="fa fa-facebook fa-2x clr-hv1"></i>
+          <i class="fa fa-twitter fa-2x clr-hv2"></i>
+          <i class="fa fa-linkedin fa-2x clr-hv3"></i>
+        </div>
+        
+      </div>
+       <div class="col-md-9">
+         <div class="pos-2">
+          <h2>Meet Our New Template <span>Best Build site</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> 
+          sed do eiusmod tempor incididunt ut labore et <strong>dolore magna aliqua</strong> </p>
+
+          <button class="collapsible shaked">Open Collapsible</button>
+
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          
+          <button class="collapsible shaked">Section 1</button>
+
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+          <button class="collapsible shaked">Section 2</button>
+
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+
+          <button class="collapsible shaked"> Section 3</button>
+
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          </div>
+          </div>
+    </div>
+  </div>
+  </section>
+  <!-- --------------------------------------------------------------------- -->
+  <!-- ----------------------------Features----------------------------------------- -->
+  <section id="features" class="text-center">
+    <div class="container">
+
+      <h2 class="pos-3">Our Features</h2>
+
+      <div class="row">
+          <div class="col-md-3 col-sm-6">
+              <div class="advang pos-3">
+                  <i class="fa fa-android fa-3x"></i>
+                  <h3>Android App</h3>
+                  <p class="lead">Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sint occaecat cupidatat</p>
+                  <div class="btn btn-primary">Order</div>
+                  <div class="btn btn-success">$Buy</div>
+  
+          </div>
+          </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="advang feat-pro pos-4-tp">
+                <i class="fa fa-desktop fa-3x"></i>
+                <h3>WEB DESIGN</h3>
+                <p class="lead">Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sint occaecat cupidatat</p>
+                <div class="btn btn-primary">Order</div>
+                <div class="btn btn-success">$Buy</div>
+
+        </div>
+        </div>
+        <div class=" col-sm-6 col-md-3">
+            <div class="advang pos-4-bt">
+                <i class="fa fa-print fa-3x"></i>
+                <h3>PRINT DESIGN</h3>
+                <p class="lead">cepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
+                <div class="btn btn-primary">Order</div>
+                <div class="btn btn-success">$Buy</div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-3 ">
+            <div class="advang pos-4">
+                <i class="fa fa-tablet fa-3x"></i>
+                <h3>Mobile APP</h3>
+                <p class="lead">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat sint </p>
+                <div class="btn btn-primary">Order</div>
+                <div class="btn btn-success">$Buy</div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------------------------------------------------------------- -->
+  <!-- ----------------------------start recommend Testimonials carousel-------------------------------------- -->
+  <section>
+      <div id="myCarousel-Testimonials" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel-Testimonials" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel-Testimonials" data-slide-to="1"></li>
+          <li data-target="#myCarousel-Testimonials" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner text-center overlay container">            
+          <div class="item active">
+            <img  class="img-responsive center-block" src="img/mb_4.jpg" alt="Los Angeles" >
+           
+              <p class="lead">Websites are one of the most valuable marketing tools for businesses of all sizes, shapes, and industries, and perhaps even more valuable to healthcare practitioners considering that 61 percent of American adults look online for health information</p> <br>
+              <span><q>Emma Smith</q></span>
+          </div>
+    
+          <div class="item">
+            <img class="img-responsive center-block" src="img/mb-2.jpg" alt="Chicago"> 
+              <p class="lead">Goals are important to have in life. They are especially important for website design, because without any goals, you have nothing to shoot for in the end and nothing to measure your success by. Goals help designers focus on the important things  goals are what help designers deliver time.</p><br>
+              <span><q>Carlous Eduardo</q></span>
+           
+          </div>
+        
+          <div class="item">
+            <img class="img-responsive center-block"  src="img/img_2.jpg" alt="New york">
+              
+              <p class="lead">I work as an IT Technician and my day to day work is exciting, but it's getting a bit timid and repetative. I want to go into something like web design or something like that.</p><br>
+              <span><q>David charly</q></span>
+          </div>
+        </div>
+      </div>
+  </section>
+    <!-- -----------------------------end recommend carousel --------------------------- -->
+
+    <!-- -----------------start section for price table -------------------------------- -->
+    <section id="price" class="priceTable">
+      <div class="container">
+        <div class="text-center">
+          <h1>  Our Price For Domains </h1>
+          <p class="lead">Create Domain and go into something like web design or something like that.</p>
+         
+        </div>
+        <div class="row">
+          <div class=" col-sm-6 col-lg-3">
+            <ul class="price">
+                <li class="header">Basic</li>
+                <li class="grey-pr">$ 99.99 / year</li>
+                <li>10GB Storage</li>
+                <li>10 Emails</li>
+                <li>10 Domains</li>
+                <li>1GB Bandwidth</li>
+                <li class="grey center-block btn btn-success"><a href="#" class="button">$Buy</a></li>
+              </ul>
+            </div>
+          <div class="col-sm-6 col-lg-3">
+            <ul class="price">
+                <li class="header" style="background-color: rgb(33, 33, 109);">Premium</li>
+                <li class="grey-pr">$ 105.00 / year</li>
+                <li>11GB Storage</li>
+                <li>15 Emails</li>
+                <li>10 Domains</li>
+                <li>1GB Bandwidth</li>
+                <li class="grey center-block btn btn-success" ><a href="#" class="button">$Buy</a></li>
+              </ul>
+            </div>
+          <div class="col-sm-6 col-lg-3">
+            <ul class="price">
+                <li class="header">Pro</li>
+                <li class="grey-pr">$ 119.92 / year</li>
+                <li>12GB Storage</li>
+                <li>20 Emails</li>
+                <li>10 Domains</li>
+                <li>1.5GB Bandwidth</li>
+                <li class="grey center-block btn btn-success"><a href="#" class="button">$Buy</a></li>
+              </ul>
+            </div>
+          <div class="col-sm-6 col-lg-3">
+            <ul class="price">
+                <li class="header fr_grey">Free</li>
+                <li class="grey-pr">$ 0.0 / year</li>
+                <li>1GB Storage</li>
+                <li>1 Emails</li>
+                <li>1 Domains</li>
+                <li>0GB Bandwidth</li>
+                <li class="grey fr_grey center-block btn btn-success"><a href="#" class="button">Try it</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="card">
+              <p><i class="fa fa-user fa-2x"></i></p>
+              <h3>11+</h3>
+              <p>Partners</p>
+            </div>
+          </div>
+        
+          <div class="col-sm-6 col-md-3">
+            <div class="card">
+              <p><i class="fa fa-check fa-2x"></i></p>
+              <h3>55+</h3>
+              <p>Projects</p>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-3">
+            <div class="card">
+              <p><i class="fa fa-smile-o fa-2x"></i></p>
+              <h3>100+</h3>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-3">
+            <div class="card">
+              <p><i class="fa fa-coffee fa-2x"></i></p>
+              <h3>100+</h3>
+              <p>Meetings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------end  section for price table -------------------------------- -->
+    <!-- ------------------start awesome team--------------------------------- -->
+    <section id="team" class="ourTeam">
+      <div class="overlay">
+      <div class="container">
+        <h1 class="text-center">Our <span>Team</span></h1>
+        <p class="lead text-center">our team for create web and develop sites , and add it to one of domains</p>
+        <div class="row">
+
+          <div class="col-sm-6 col-md-3">
+            <div class="person">
+              <img class="img-responsive center-block" src="img/14.jpeg" alt="image" width="100% ;">
+              <h4 class="text-center">Harvey Rube</h4>
+              <div class="social text-center">
+                      <a href="https://twitter.com/ayadmahmoud03"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"><i class="fa fa-facebook"></i></a>
+                      <a href="https://plus.google.com/u/0/117091388567425716151"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/in/mahmoud-ayad-5578b0146/"><i class="fa fa-linkedin"></i></a>
+
+              </div>
+              <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</p>
+            </div>
+            
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="person">
+              <img class="img-responsive center-block" src="img/mb-2.jpg" alt="image" width="100%">
+              <h4 class="text-center">Vander willy</h4>
+              <div class="social text-center">
+                      <a href="https://twitter.com/ayadmahmoud03"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"><i class="fa fa-facebook"></i></a>
+                      <a href="https://plus.google.com/u/0/117091388567425716151"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/in/mahmoud-ayad-5578b0146/"><i class="fa fa-linkedin"></i></a>
+
+              </div>
+              <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3">
+            <div class="person">
+              <img class="img-responsive center-block" src="img/mb_8.jpg" alt="image" width="100%">
+              <h4 class="text-center">Ashly Williams</h4>
+              <div class="social text-center">
+                      <a href="https://twitter.com/ayadmahmoud03"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"><i class="fa fa-facebook"></i></a>
+                      <a href="https://plus.google.com/u/0/117091388567425716151"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/in/mahmoud-ayad-5578b0146/"><i class="fa fa-linkedin"></i></a>
+              </div>
+              <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</p>
+            </div>
+
+          </div>
+          <div class="hidden-xs col-sm-6 col-md-3">
+            <div class="person">
+              <img class="img-responsive center-block" src="img/mb_7.jpg" alt="image" width="100%">
+              <h4 class="text-center">Maria Ashly</h4>
+              <div class="social text-center">
+                      <a href="https://twitter.com/ayadmahmoud03"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"><i class="fa fa-facebook"></i></a>
+                      <a href="https://plus.google.com/u/0/117091388567425716151"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/in/mahmoud-ayad-5578b0146/"><i class="fa fa-linkedin"></i></a>
+
+              </div>
+              <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</p>
+
+            </div>
+          </div>
+          <div class="hidden-xs col-sm-6 col-md-3">
+            <div class="person">
+              <img class="img-responsive center-block" src="img/mb_6.jpg" alt="image" width="100%">
+              <h4 class="text-center">Peter Ritchrard</h4>
+              <div class="social text-center">
+                      <a href="https://twitter.com/ayadmahmoud03"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"><i class="fa fa-facebook"></i></a>
+                      <a href="https://plus.google.com/u/0/117091388567425716151"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/in/mahmoud-ayad-5578b0146/"><i class="fa fa-linkedin"></i></a>
+
+              </div>
+              <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</p>
+
+            </div>
+          </div>
+          <div class="hidden-xs col-sm-6 col-md-3">
+            <div class="person">
+              <img class="img-responsive center-block" src="img/mb_4.jpg" alt="image" width="100%">
+              <h4 class="text-center">Mai Jack</h4>
+              <div class="social text-center">
+                      <a href="https://twitter.com/ayadmahmoud03"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"><i class="fa fa-facebook"></i></a>
+                      <a href="https://plus.google.com/u/0/117091388567425716151"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/in/mahmoud-ayad-5578b0146/"><i class="fa fa-linkedin"></i></a>
+
+              </div>
+              <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</p>
+
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="person">
+              <img class="img-responsive center-block" src="img/mb_5.jpg" alt="image" width="100%">
+              <h4 class="text-center">Adam Watson</h4>
+              <div class="social text-center">
+                      <a href="https://twitter.com/ayadmahmoud03"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"><i class="fa fa-facebook"></i></a>
+                      <a href="https://plus.google.com/u/0/117091388567425716151"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/in/mahmoud-ayad-5578b0146/"><i class="fa fa-linkedin"></i></a>
+
+              </div>
+              <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</p>
+
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="person">
+              <img class="img-responsive center-block" src="img/mb_9.jpg" alt="image" width="100%">
+              <h4 class="text-center">Danny Robert</h4>
+              <div class="social text-center">
+                      <a href="https://twitter.com/ayadmahmoud03"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"><i class="fa fa-facebook"></i></a>
+                      <a href="https://plus.google.com/u/0/117091388567425716151"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://www.linkedin.com/in/mahmoud-ayad-5578b0146/"><i class="fa fa-linkedin"></i></a>
+
+              </div>
+              <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata</p>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- ------------------end awesome team--------------------------------- -->
+    <!-- ------------------start timelin--------------------------------- -->
+    <section>
+    <div  id="history" class="timeline">
+      <h3><i class="fa fa-star"></i> Our Brand History and Review</h3>
+      <div class="container left">
+        <div class="content">
+          <h2><span>2017</span></h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2><span>2016</span></h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2><span>2015</span></h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2><span>2012</span></h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="hidden-xs container left">
+        <div class="content">
+          <h2><span>2011</span></h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="hidden-xs container right">
+        <div class="content">
+          <h2><span>2007</span></h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- ------------------end timeline--------------------------------- -->
+    <!-- ---------------------- start our skills ----------------------------- -->
+<section id="skills" class="our-skill"> 
+      <div class="container">
+        <h1 class="text-center pos-6">Our <span>Skills</span></h1>
+
+        <div class="row">
+          <div class="col-md-5 pos-5">
+              <div class="progress">
+                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">HTML5
+                    <span class="sr-only">90% Complete (success)</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"> CSS3
+                    <span class="sr-only">20% Complete</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">JavaScript
+                    <span class="sr-only">60% Complete (warning)</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">Bootstrap
+                    <span class="sr-only">80% Complete (danger)</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">jQuery
+                    <span class="sr-only">80% Complete (danger)</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">SQL
+                    <span class="sr-only">80% Complete (danger)</span>
+                  </div>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">PHP
+                    <span class="sr-only">60% Complete (danger)</span>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-6 col-md-offset-1 pos-6">
+            <div class="info-skill text-center ">
+              <p><B><span>Our Team Builder</span></B> use this programming language for Create Responsive and Simple pages by Transfer your idea into Web Pages and can Convert PSD File into web pages  </p>
+
+              <button class="btn btn-primary "><i class="fa fa-angle-double-down"><a class="angle-dw" href="#" data-scroll="#contacts">Contact us</a> </i></button>
+              <div class="info-icon">
+                  <i class="fa fa-html5 fa-3x clr-1"></i>
+                  <i class="fa fa-css3 fa-3x clr-2"> </i>
+                  <i class="fa fa-github fa-3x clr-3"></i>
+                  <i class="fa fa-wordpress fa-3x clr-4"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+</section>
+    <!-- ---------------------- end our skills ----------------------------- -->
+
+    <!-- ----------------------------start our clients---------------------- -->
+<section id="client" class="client-sp">
+      <div class="container">
+          <h1 class="text-center">Our <span>Partener</span></h1>
+        <div class="row">
+          <div class="col-xs-4 col-sm-2 ">
+              <img class="img-responsive center-block" src="img/sp1.png" alt="client not fount">
+          </div>
+          <div class="col-xs-4 col-sm-2">
+              <img class="img-responsive center-block" src="img/sp2.png" alt="client not fount">
+          </div>
+          <div class="col-xs-4 col-sm-2 ">
+              <img class="img-responsive center-block" src="img/sp3.png" alt="client not fount">
+          </div>
+          <div class="col-xs-4 col-sm-2 ">
+              <img class="img-responsive center-block" src="img/sp4.jpg" alt="client not fount">
+          </div>
+          <div class="col-xs-4 col-sm-2 ">
+              <img class="img-responsive center-block" src="img/sp5.jpg" alt="client not fount">
+          </div>
+          <div class="col-xs-4 col-sm-2 ">
+              <img class="img-responsive center-block" src="img/sp6.png" alt="client not fount">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------end our clients---------------------- -->
+
+    <!-- ------------------start contacts--------------------------------- -->
+      <section id="contacts" class="contact-us">
+          <div class="overlay">
+            <div class="container">
+             <div class="foot">
+               <div class="text-center">
+                 <li class="fa fa-comments fa-5x"></li>
+                  <h2>Contact us , Tell us What You Need</h2>
+                  <p class="lead">Writa as You like ..</p>
+                </div>
+                <form>
+                    <div class="col-md-6 form-line pos-7">
+                        <div class="form-group">
+                          <label for="exampleInputUsername">Your Name</label>
+
+                          <div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i> </span>
+                            <input type="text" class="form-control" id="" placeholder=" Enter Name" aria-describedby="basic-addon1">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputEmail">Email Address</label>
+
+                          <div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-at" aria-hidden="true"></i> </span>
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+                          </div>
+                        </div>
+                        	
+                        <div class="form-group">
+                          <label for="telephone ">Mobile No.</label>
+
+                          <div class="input-group input-group-lg">
+                              <span class="input-group-addon" id="basic-addon1"><i class="fa fa-mobile" aria-hidden="true"></i> </span>
+                              <input type="tel" class="form-control" id="telephone" placeholder=" Enter mobile no.">
+                         </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-6 pos-8">
+                        <div class="form-group">
+                          <label for ="description"> Message</label>
+                           <textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                        </div>
+                        <div>
+          
+                          <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+                        </div>
+                        
+                    </div>
+                  </form> 
+                 </div>
+                </div>
+        </div>
+        </div>
+      </div>
+</section>
+    <!-- ------------------end contacts--------------------------------- -->
+
+    <!-- ------------------start footer --------------------------------- -->
+<section>
+  <div class="foot-info">
+      <div class="container">
+          <div class="row">
+            <div class="foot-descr">
+              <div class="col-xs-12 col-sm-6 col-md-4 foot-ls">
+
+                <h3>Sitemap</h3>
+
+                <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Company</li>
+                  <li>History</li>
+                  <li>Hosting</li>
+                  <li>Price</li>
+                  <li>Web Service</li>
+                  <li>Skills</li>
+                  <li>Designing</li>
+                  <li>Clients</li>
+                  <li>Contacts</li>
+                </ul>
+                
+                
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-4 foot-ls">
+                  <div class="media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img class="media-object" src="img/icon5.jpg" alt="img not found">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">Rocky Media </h4>
+                          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                      </div>
+                    </div>
+                    <hr>
+                  <div class="media">
+                      <div class="media-body">
+                        <h4 class="media-heading">Vetta Media</h4>
+                          <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                      </div>
+                      <div class="media-right">
+                          <a href="#">
+                            <img class="media-object" src="img/icon6.jpg" alt="img not found">
+                          </a>
+                        </div>
+                    </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-0 foot-pos">
+
+                <h4>Contact us on <li class="fa fa-angle-double-down" style="color: #0077B5"></li></h4>
+                <ul class="social-hv">
+                  <i class="fa fa-facebook social-act fac-hv" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin social-act linked-hv" aria-hidden="true"></i>
+                  <i class="fa fa-twitter social-act twt-hv" aria-hidden="true"></i>
+                  <i class="fa fa-instagram social-act insta-hv" aria-hidden="true"></i>
+                  <i class="fa fa-youtube social-act yt-hv" aria-hidden="true"></i>
+              </ul>
+              <div class="input-group input-group-lg">
+                <input type="tel" class="form-control" id="telephone" placeholder=" Enter email address">
+                <span class="input-group-addon foot-sub" id="basic-addon1">Subscrip</i> </span>
+              </div>
+            </div>
+
+              
+          </div>
+          <hr>
+              <div class="col-sm-12 col-md-3 foot-rel">
+                  <i class="fa fa-map-marker fa-2x collapsible"></i>
+
+                  <div class="content">
+                      <i class="fa fa-map-marker"> Tala, Menofia , EGYPT</i>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3 foot-rel">
+                  <i class="fa fa-phone fa-2x collapsible"></i>
+                  <div class="content">
+                    <i class="fa fa-phone"> +20: 1025061019 </i>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-3 foot-rel">
+                  <i class="fa fa-envelope fa-2x collapsible"></i>
+                  <div class="content">
+                    <i class="fa fa-envelope"> ayadmahmoud03@gmail.com </i>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-3 foot-rel">
+                  <i class="fa fa-link fa-2x collapsible"></i>
+                  <div class="content">
+                      <a href="https://www.facebook.com/mahmoud.elhadary.5682"> <i class="fa fa-facebook"> Mahmoud Ayad </i></a>
+                    </div>
+              </div>
+              <div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="copyrigh text-center">
+      Copyrihgt &copy; 2018 <span> -T-Brand </span>.inc
+     </div>
+</section>
+
+
+
+    <!-- ------------------end footer--------------------------------- -->
+
+    <!-- ------------------button bottom to top--------------------------------- -->
+    <div id="scroll-top">
+      <li class="fa fa-chevron-up fa-3x sc-btn"></li>
+
+    </div>
+    <!-- ------------------button bottom to top--------------------------------- -->
+
+
+
+    
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+   
+    
+</body>
+</html>
