@@ -1,0 +1,166 @@
+span{
+    color: #791E94;
+    
+}
+label{
+    color: #791E94;
+}
+.option-box .color-option{
+    border: 2px solid #791E94;
+}
+.option-box ul li{
+    background-color: #791E94;
+}
+.option-box .gr-checked{
+    background-color: #791E94;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover , .dropdown-menu li a:hover
+
+{
+    background-color: #791E94;
+    border-bottom: 2px solid #791E94;
+}
+.navbar-inverse .navbar-nav>.active>a:hover  {
+    background-color:rgb(97, 28, 117);
+}
+.navbar-nav>li>a:focus{
+    border-bottom: 2px solid #791E94;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    border-bottom: 2px solid #791E94;
+}
+.navbar-nav>li>.dropdown-menu{
+    
+    border-top:2px solid #791E94;
+}
+.brand{
+    color: #791E94;
+}
+/* ---------------------------------------------- */
+.carousel-indicators .active{
+    background-color: #791E94;
+}
+.carousel-caption h1{
+    color: #791E94;
+}
+/* ------------------------------------------------- */
+#about .visit-st h4{
+    color: #004883;
+}
+#about .visit-st h4:hover{
+    color: #0077B5;
+}
+#about span{
+    color: #791E94;
+}
+#about .collapsible {
+    background-color: #791E94;
+}
+
+/* -------------------------------------------------------- */
+#features h2{
+    border-bottom: 2px solid #791E94;
+}
+#features .advang{
+    border-bottom: s5px solid #791E94;
+}
+#features .advang i{
+    color: #791E94;
+}
+#features .advang h3{
+    color: #791E94;
+}
+#features .advang:hover ,#features .feat-pro{
+    border-top: 5px solid #791E94;
+}
+#features .advang i:hover{
+    background-color: #791E94;
+}
+@media (max-width: 768px) {
+    #features .advang i {
+        color: #791E94;
+    }
+}
+/* ---------------------------------------------------------------- */
+
+#myCarousel-Testimonials h2{
+    color: rgb(121, 21, 41);
+}
+#myCarousel-Testimonials .lead{
+    color:burlywood;
+}
+/* ------------------------------------------------------------------ */
+.priceTable h1{
+    color: #791E94;
+}
+.priceTable .price {
+    border-bottom: 5px solid #791E94;
+}
+.priceTable .price .grey-pr{
+    background-color: #791E94;
+}
+.priceTable .card:hover{
+    border-bottom: 4px solid #791E94;
+  }
+  .priceTable .card h3{
+    color: #791E94;
+}
+/* --------------------------------------------------------------- */
+.ourTeam .person{
+    border-bottom: 5px solid #791E94;
+}
+
+.social .fa-twitter,.social .fa-facebook ,.social .fa-google-plus, .social .fa-linkedin
+{
+	background:#791E94; 
+}
+@media (max-width: 768px) {
+    .ourTeam .person{
+        border-bottom: 2px solid #791E94;
+    }
+}
+/* ------------------------------------------------------- */
+.timeline h3{
+    color: #EA4335;
+}
+.timeline .content {
+    background-color:rgba(222,100,73,1);
+}
+.our-skill h1{
+    border-bottom: 2px solid #791E94;
+}
+.our-skill .progress:hover{
+    border-bottom: 1px solid #791E94;
+}
+.client-sp h1{
+    border-bottom: 2px solid #791E94;
+}
+.contact-us .fa{
+    color: #791E94;
+}
+.foot-info .foot-rel .fa{
+    color: #791E94;
+    border: 2px solid #791E94;
+}
+.foot-info .foot-rel .fa:hover{
+    background-color: #791E94;
+}
+.foot-info .foot-rel .fa a{
+    color: #791E94;
+}
+.foot-info .content .fa{
+    background-color: #fff;
+}
+
+.collapsible:hover {
+    background-color: #791E94;
+}
+/* ------------------------------------------------- */
+#scroll-top{
+    background-color: #791E94;
+}
+#scroll-top:hover{
+    background-color: #791E94;
+}
+/* --------------------------------------------------- */

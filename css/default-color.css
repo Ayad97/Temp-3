@@ -1,0 +1,167 @@
+span{
+    color: crimson;
+    
+}
+label{
+    color: crimson;
+}
+.option-box .color-option{
+    border: 2px solid crimson;
+}
+.option-box ul li{
+    background-color: crimson;
+}
+.option-box .gr-checked{
+    background-color: crimson;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover , .dropdown-menu li a:hover
+
+{
+    background-color: crimson;
+    border-bottom: 2px solid crimson;
+}
+.navbar-inverse .navbar-nav>.active>a:hover  {
+    background-color: rgb(184, 8, 43);
+}
+.navbar-nav>li>a:focus{
+    border-bottom: 2px solid crimson;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    border-bottom: 2px solid crimson;
+}
+.navbar-nav>li>.dropdown-menu{
+    
+    border-top:2px solid crimson;
+}
+.brand{
+    color: crimson;
+}
+/* ---------------------------------------------- */
+.carousel-indicators .active{
+    background-color: crimson;
+}
+.carousel-caption h1{
+    color: crimson;
+}
+/* ------------------------------------------------- */
+#about .visit-st h4{
+    color: #004883;
+}
+#about .visit-st h4:hover{
+    color: #0077B5;
+}
+#about span{
+    color: crimson;
+}
+#about .collapsible {
+    background-color: crimson;
+}
+
+/* -------------------------------------------------------- */
+#features h2{
+    border-bottom: 2px solid crimson;
+}
+#features .advang{
+    border-bottom: s5px solid crimson;
+}
+#features .advang i{
+    color: crimson;
+}
+#features .advang h3{
+    color: crimson;
+}
+#features .advang:hover ,#features .feat-pro{
+    border-top: 5px solid crimson;
+    
+}
+#features .advang i:hover{
+    background-color: crimson;
+}
+@media (max-width: 768px) {
+    #features .advang i {
+        color: crimson;
+    }
+}
+/* ---------------------------------------------------------------- */
+
+#myCarousel-Testimonials h2{
+    color: rgb(121, 21, 41);
+}
+#myCarousel-Testimonials .lead{
+    color:burlywood;
+}
+/* ------------------------------------------------------------------ */
+.priceTable h1{
+    color: crimson;
+}
+.priceTable .price {
+    border-bottom: 5px solid crimson;
+}
+.priceTable .price .grey-pr{
+    background-color: crimson;
+}
+.priceTable .card:hover{
+    border-bottom: 4px solid crimson;
+  }
+  .priceTable .card h3{
+    color: crimson;
+}
+/* --------------------------------------------------------------- */
+.ourTeam .person{
+    border-bottom: 5px solid crimson;
+}
+
+.social .fa-twitter,.social .fa-facebook ,.social .fa-google-plus, .social .fa-linkedin
+{
+	background:crimson; 
+}
+@media (max-width: 768px) {
+    .ourTeam .person{
+        border-bottom: 2px solid crimson;
+    }
+}
+/* ------------------------------------------------------- */
+.timeline h3{
+    color: #EA4335;
+}
+.timeline .content {
+    background-color: rgba(247,179,45,.5);
+}
+
+.our-skill h1{
+    border-bottom: 2px solid crimson;
+}
+.our-skill .progress:hover{
+    border-bottom: 1px solid crimson;
+}
+.client-sp h1{
+    border-bottom: 2px solid crimson;
+}
+.contact-us .fa{
+    color: crimson;
+}
+.foot-info .foot-rel .fa{
+    color: crimson;
+    border: 2px solid crimson;
+}
+.foot-info .foot-rel .fa:hover{
+    background-color: crimson;
+}
+.foot-info .foot-rel .fa a{
+    color: crimson;
+}
+.foot-info .content .fa{
+    background-color: #fff;
+}
+ .collapsible:hover {
+    background-color: crimson;
+}
+/* ----------------------------------------------------- */
+#scroll-top{
+    background-color: crimson;
+}
+#scroll-top:hover{
+    background-color: crimson;
+}
+/* ----------------------------------------------------- */

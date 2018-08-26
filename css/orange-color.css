@@ -1,0 +1,166 @@
+span{
+    color: #f7600f;
+    
+}
+label{
+    color: #f7600f;
+}
+.option-box .color-option{
+    border: 2px solid #f7600f;
+}
+.option-box ul li{
+    background-color: #f7600f;
+}
+.option-box .gr-checked{
+    background-color: #f7600f;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover , .dropdown-menu li a:hover
+
+{
+    background-color: #f7600f;
+    border-bottom: 2px solid #f7600f;
+}
+.navbar-inverse .navbar-nav>.active>a:hover  {
+    background-color: #c24908;
+}
+.navbar-nav>li>a:focus{
+    border-bottom: 2px solid #f7600f;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    border-bottom: 2px solid #f7600f;
+}
+.navbar-nav>li>.dropdown-menu{
+    
+    border-top:2px solid #f7600f;
+}
+.brand{
+    color: #f7600f;
+}
+/* ---------------------------------------------- */
+.carousel-indicators .active{
+    background-color: #f7600f;
+}
+.carousel-caption h1{
+    color: #f7600f;
+}
+/* ------------------------------------------------- */
+#about .visit-st h4{
+    color: #004883;
+}
+#about .visit-st h4:hover{
+    color: #0077B5;
+}
+#about span{
+    color: #f7600f;
+}
+#about .collapsible {
+    background-color: #f7600f;
+}
+
+/* -------------------------------------------------------- */
+#features h2{
+    border-bottom: 2px solid #f7600f;
+}
+#features .advang{
+    border-bottom: s5px solid #f7600f;
+}
+#features .advang i{
+    color: #f7600f;
+}
+#features .advang h3{
+    color: #f7600f;
+}
+#features .advang:hover ,#features .feat-pro{
+    border-top: 5px solid #f7600f;
+}
+#features .advang i:hover{
+    background-color: #f7600f;
+}
+@media (max-width: 768px) {
+    #features .advang i {
+        color: #f7600f;
+    }
+}
+/* ---------------------------------------------------------------- */
+
+#myCarousel-Testimonials h2{
+    color: rgb(121, 21, 41);
+}
+#myCarousel-Testimonials .lead{
+    color:burlywood;
+}
+/* ------------------------------------------------------------------ */
+.priceTable h1{
+    color: #f7600f;
+}
+.priceTable .price {
+    border-bottom: 5px solid #f7600f;
+}
+.priceTable .price .grey-pr{
+    background-color: #f7600f;
+}
+.priceTable .card:hover{
+    border-bottom: 4px solid #f7600f;
+  }
+  .priceTable .card h3{
+    color: #f7600f;
+}
+/* --------------------------------------------------------------- */
+.ourTeam .person{
+    border-bottom: 5px solid #f7600f;
+}
+
+.social .fa-twitter,.social .fa-facebook ,.social .fa-google-plus, .social .fa-linkedin
+{
+	background:#f7600f; 
+}
+@media (max-width: 768px) {
+    .ourTeam .person{
+        border-bottom: 2px solid #f7600f;
+    }
+}
+/* ------------------------------------------------------- */
+.timeline h3{
+    color: #EA4335;
+}
+.timeline .content {
+    background-color:rgba(255,245,195,.5);
+}
+.our-skill h1{
+    border-bottom: 2px solid #f7600f;
+}
+.our-skill .progress:hover{
+    border-bottom: 1px solid #f7600f;
+}
+.client-sp h1{
+    border-bottom: 2px solid #f7600f;
+}
+.contact-us .fa{
+    color: #f7600f;
+}
+.foot-info .foot-rel .fa{
+    color: #f7600f;
+    border: 2px solid #f7600f;
+}
+.foot-info .foot-rel .fa:hover{
+    background-color: #f7600f;
+}
+.foot-info .foot-rel .fa a{
+    color: #f7600f;
+}
+.foot-info .content .fa{
+    background-color: #fff;
+}
+
+.collapsible:hover {
+    background-color: #f7600f;
+}
+/* ------------------------------------------------- */
+#scroll-top{
+    background-color: #f7600f;
+}
+#scroll-top:hover{
+    background-color: #f7600f;
+}
+/* --------------------------------------------------- */
