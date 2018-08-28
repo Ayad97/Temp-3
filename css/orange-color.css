@@ -139,6 +139,9 @@ label{
 .client-sp h1{
     border-bottom: 2px solid #f7600f;
 }
+.contact-us label{
+    border-bottom: 4px solid #f7600f;
+}
 .contact-us .fa{
     color: #f7600f;
 }
