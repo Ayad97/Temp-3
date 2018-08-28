@@ -18,6 +18,7 @@ body{
     height: 100%;
 
 }
+
 .pos-lf{
     animation-duration: 2s;
     animation-name: slidelf;
@@ -207,6 +208,7 @@ body{
     padding-top: 12px;
     padding-bottom: 12px;
   }
+  
 /* ----------mrdia quety--------- */
 
 @media (max-width: 768px) {
@@ -305,6 +307,7 @@ body{
 
 #about h2{
     font-weight: bold;
+    padding-bottom: 10px;
 }
 #about span{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -418,6 +421,10 @@ body{
     border-bottom: 0;
     box-shadow: 0 12px 12px 0 rgba(0,0.2,0,0.2);
     
+}
+#features .hvr-underline-from-center:before{
+    border-radius: 10px;
+    height:5px
 }
 #features .advang i{
     width: 80px;
@@ -1139,6 +1146,7 @@ body{
     font-family: 'Merriweather', serif;
     color: rgb(219, 205, 205);
     letter-spacing: 1px;
+    padding-bottom: 10px;
   }
   .contact-us .form-control{
     font-size: 1.3em;
