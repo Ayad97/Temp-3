@@ -142,6 +142,9 @@ label{
 .contact-us .fa{
     color: #ffc300;
 }
+.contact-us label{
+    border-bottom: 4px solid #ffc300;
+}
 .foot-info .foot-rel .fa{
     color: #ffc300;
     border: 2px solid #ffc300;
