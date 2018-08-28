@@ -37,19 +37,20 @@ $(function () {
         });
     
         $('html').niceScroll({
-            cursorcolor:'crimson',
+            cursorcolor:'#000',
             cursorwidth:4,
-            cursorborder:'1px solid crimson'
+            cursorborder:'1px solid #000',
+            
         });
         $('#id01').niceScroll({
-            cursorcolor:'crimson',
+            cursorcolor:'#000',
             cursorwidth:4,
-            cursorborder:'1px solid crimson'
+            cursorborder:'1px solid #000'
         });
         $('#id02').niceScroll({
-            cursorcolor:'crimson',
+            cursorcolor:'#000',
             cursorwidth:4,
-            cursorborder:'1px solid crimson'
+            cursorborder:'1px solid #000'
         });
 
         $('nav li a , .p-learn ,.angle-dw').click(function(e){
@@ -91,36 +92,36 @@ $(function () {
 
 //...... #about and #about collisible  .......................
 
-$(".shaked").click(function(){
-    $(".shaked").animate({ 
-        marginLeft: "-=10px"
-    },500).animate({ 
-        marginLeft: "+=10px"
-    },500)
-}); 
+// $(".shaked").click(function(){
+//     $(".shaked").animate({ 
+//         marginLeft: "-=10px"
+//     },500).animate({ 
+//         marginLeft: "+=10px"
+//     },500)
+// }); 
 
-$('#about').hover(function()
-{
-    $(".pos-1").addClass("pos-lf"),
-    $(".pos-2").addClass("pos-rgh")
+// $('#about').hover(function()
+// {
+//     $(".pos-1").addClass("pos-lf"),
+//     $(".pos-2").addClass("pos-rgh")
     
-});
-// ----------------------------------------
-$('#features').hover(function()
-{
-    $(".pos-3").addClass("pos-lf"),
-    $(".pos-4").addClass("pos-rgh"),
-    $(".pos-4-tp").addClass("pos-tp"),
-    $(".pos-4-bt").addClass("pos-bt")
+// });
+// // ----------------------------------------
+// $('#features').hover(function()
+// {
+//     $(".pos-3").addClass("pos-lf"),
+//     $(".pos-4").addClass("pos-rgh"),
+//     $(".pos-4-tp").addClass("pos-tp"),
+//     $(".pos-4-bt").addClass("pos-bt")
 
-});
-$('#skills').hover(function()
-{
-    $(".pos-5").addClass("pos-lf"),
-    $(".pos-6").addClass("pos-rgh")
-});
-$('#contacts').hover(function()
-{
-    $(".pos-7").addClass("pos-lf"),
-    $(".pos-8").addClass("pos-tp")
-});
+// });
+// $('#skills').hover(function()
+// {
+//     $(".pos-5").addClass("pos-lf"),
+//     $(".pos-6").addClass("pos-rgh")
+// });
+// $('#contacts').hover(function()
+// {
+//     $(".pos-7").addClass("pos-lf"),
+//     $(".pos-8").addClass("pos-tp")
+// });
