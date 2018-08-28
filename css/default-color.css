@@ -5,6 +5,9 @@ span{
 label{
     color: crimson;
 }
+.hvr-underline-from-center:before{
+    background: crimson;
+  }
 .option-box .color-option{
     border: 2px solid crimson;
 }
@@ -78,6 +81,7 @@ label{
 #features .advang i:hover{
     background-color: crimson;
 }
+
 @media (max-width: 768px) {
     #features .advang i {
         color: crimson;
