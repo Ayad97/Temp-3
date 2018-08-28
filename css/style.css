@@ -19,7 +19,7 @@ body{
 
 }
 
-.pos-lf{
+/* .pos-lf{
     animation-duration: 2s;
     animation-name: slidelf;
     animation-direction: alternate;
@@ -90,7 +90,7 @@ body{
         top: 0;
         
       } 
-}
+} */
 /* ------------------------------------------------- */
 /* -------------------option-box------------------------------ */
 .option-box{
@@ -1147,6 +1147,7 @@ body{
     color: rgb(219, 205, 205);
     letter-spacing: 1px;
     padding-bottom: 10px;
+    
   }
   .contact-us .form-control{
     font-size: 1.3em;
@@ -1480,9 +1481,9 @@ body{
 
 /* -------------------scroll-top"--------------------------- */
 #scroll-top{
-    width: 45px;
+    width: 40px;
     height: 45px;
-    line-height: 60px;
+    line-height: 52px;
     color: #eee;
     border-radius: 20%;
     text-align: center;
@@ -1491,7 +1492,7 @@ body{
     position: fixed;
     right: 3px;
     bottom: 10px;
-    opacity: .5;
+    opacity: .7;
     z-index: 999;
     display: none;
 }
