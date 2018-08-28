@@ -2,6 +2,9 @@ span{
     color: #f7600f;
     
 }
+.hvr-underline-from-center:before{
+    background:  #f7600f;
+  }
 label{
     color: #f7600f;
 }
